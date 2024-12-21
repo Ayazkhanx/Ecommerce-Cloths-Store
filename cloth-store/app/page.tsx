@@ -154,45 +154,53 @@ export default function page() {
 
               <div className="p-10 m-14 rounded bg-[#F0F0F0]">
       {/* Header Section */}
-      <div className="flex justify-center p-8 items-center">g
+      <div className="flex justify-center p-8 items-center">
         <h1 className="text-4xl font-bold">BROWSE BY DRESS STYLE</h1>
       </div>
 
-      
-      <div className="grid lg:grid-row-2 sm:grid-row-4 ">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
         {/* First row of images */}
-        <div className="flex h-48 gap-4">
-          <Image
-            src={pic9}
-            alt="Dress Style 1"
-            width={450}
-            className="rounded-lg col-span-4" 
-          />
-          <Image
-            src={pic10}
-            alt="Dress Style 2"
-            // width={250}
-            className="rounded-lg col-span-8"
-          />
+        <div className="flex flex-wrap gap-4">
+          <div className="w-full sm:w-1/2 lg:w-1/2">
+            <Image
+              src={pic9}
+              alt="Dress Style 1"
+              width={450}
+              height={300}
+              className="rounded-lg w-full object-cover"
+            />
+          </div>
+          <div className="w-full sm:w-1/2 lg:w-1/2">
+            <Image
+              src={pic10}
+              alt="Dress Style 2"
+              width={450}
+              height={300}
+              className="rounded-lg w-full object-cover"
+            />
+          </div>
         </div>
 
-        <div>
         {/* Second row of images */}
-        <div className="flex h-80 pt-6 gap-4 ">
-          <Image
-            src={pic12}
-            alt="Dress Style 3"
-            width={900}
-            className="object-cover rounded-lg"
-          />
-          <Image
-            src={pic11}
-            alt="Dress Style 4"
-            // width={250}
-            // height={250}
-            className="object-cover rounded-lg"
-          />
-        </div>
+        <div className="flex flex-wrap gap-4">
+          <div className="w-full sm:w-full lg:w-2/3">
+            <Image
+              src={pic12}
+              alt="Dress Style 3"
+              width={900}
+              height={600}
+              className="object-cover rounded-lg w-full"
+            />
+          </div>
+          <div className="w-full sm:w-full lg:w-1/3">
+            <Image
+              src={pic11}
+              alt="Dress Style 4"
+              width={450}
+              height={300}
+              className="object-cover rounded-lg w-full"
+            />
+          </div>
         </div>
       </div>
     </div>
