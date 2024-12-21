@@ -94,7 +94,7 @@ export default function page() {
       <h1 className='text-center sm:text-left w-full sm:w-auto'>VERCASE</h1>
       <h1 className='text-center sm:text-left w-full sm:w-auto'>ZARA</h1>
       <h1 className='text-center sm:text-left w-full sm:w-auto'>GUCCI</h1>
-      <h1 className='text-center sm:text-left w-full sm:w-auto'>PRADA</h1>
+      <h1 className='text-center sm:text-left w-full sm:w-auto font-extrabold'>PRADA</h1>
       <h1 className='text-center sm:text-left w-full sm:w-auto'>Calvin Klein</h1>
     </div>
 
