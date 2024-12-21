@@ -22,7 +22,7 @@ export default function Navbar() {
 
         {/* Desktop Links */}
         <div className='flex gap-8'>
-          <Link href='/shop' className="hover:text-gray-600">Shop</Link>
+          <Link href='/shirt' className="hover:text-gray-600">Shop</Link>
           <Link href='/sale' className="hover:text-gray-600">Sale</Link>
           <Link href='/newArrivals' className="hover:text-gray-600">New Arrivals</Link>
           <Link href='/brands' className="hover:text-gray-600">Brands</Link>

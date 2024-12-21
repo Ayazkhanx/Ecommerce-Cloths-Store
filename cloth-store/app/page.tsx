@@ -205,7 +205,7 @@ export default function page() {
       </div>
     </div>
 
-    <div className="grid grid-cols-12 gap-4 m-8 p-4 bg-black text-white rounded-md">
+    <div className="grid grid-cols-12 gap-4 m-12 p-6 bg-black text-white rounded-md">
           {/* Text Section: Takes 6 columns */}
           <div className="col-span-12 lg:col-span-6 p-4 flex items-center">
             <h1 className="font-bold text-3xl">
